@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git and Github</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git and Github</title>
+</head>
+<body>
+    <p>1. Introduction <br>
+        #SCM = Source Code Management</p>
+
+    <p>2. Create and Connect Github repo with PC <br>
+        #Go to github profile > New Repository > repo name > select Public > Create Repo > A command page will appear.</p>
+
+    <p>3. Git init, git add, git commit <br>
+        #Open VS code > open target folder from PC > Terminal > New Terminal > write- git --version > enter => If it showing the version then it's ready for working.
+
+        #Go to github command page > copy first line and paste it in Terminal > Enter
+        Copy-paste 2nd line > Enter
+        Now write- git add . > Enter
+        git commit -m"any meaningful message" > Enter</p>
+
+    <p>4. Set origin, git push, Repo overview, git publish <br>
+        #Repository = A place where things can be stored
+
+        #Write- git config --global user.email "github email" > Enter
+        git config --global user.email "github username" > Enter
+        git commit -m"any meaningful message" > Enter
+        Copy-paste 5th line > Enter
+        Copy-paste 6th line > Enter
+        Copy-paste 7th line > Enter(first time may need to give github authentication through browser or code)
+        Refresh github command page > Done
+
+        #Let's create another repo with organize way=>
+        Go to github profile > New Repository > repo name > select Public > Create Repo > A command page will appear.
+        Open VS code > open target folder from PC > Terminal > New Terminal > write- git --version > enter => If it showing the version then it's ready for working.
+        Copy-paste 2nd line > Enter
+        Now write- git add . > Enter
+        git commit -m"any meaningful message" > Enter
+        Copy-paste 5th line > Enter
+        Copy-paste 6th line > Enter
+        Copy-paste 7th line > Enter(first time may need to give github authentication through browser or code)
+        Refresh github command page > Done
+
+        #Github publish/hosting:
+        Go to repo > settings > pages > branch > select > main > save > Refresh > Done
+        Copy-paste thr URL > Enter > Watch live</p>
+
+    <p>5. Send small increment change to github <br>
+        #If in future we change anything inside our code and wants to upload it to github just need to write three line of command in VS code terminal=>
+        git add . > enter
+        git commit -m"a meaningful message" > enter
+        git push > enter
+        Go to github target repo > Refresh > Done</p>
+
+    <p>6.Common github related issues faced by beginners <br>
+        #If we set our default html file anything but not index.html then the live link won't work. 
+        To see it live add html default file name after the the link=>
+        URL/any.html</p> 
+
+    <p>7.Create git branch, merge branch <br>
+        #Gsearch - git branch commands
+
+        #To see the list of the branch just write in VS code terminal-
+        git branch > enter
+        
+        #To create a new branch 
+        git branch newBranchName > enter
+
+        #To switch the branch 
+        git checkout branchName > enter
+        git push --set-upstream origin branchName > enter(This line needed only for new branch)
+        Now if we merge this new branch into main branch- 
+        git checkout main > enter
+        git merge branchName > enter
+        git push > enter</p>
+
+    <p>8.Git pull, toggle branch, merge conflict <br>
+        #If someone change anything inside code and you wants pull it in your PC/VS code 
+        git pull > enter
+
+        #Gsearch - git merge conflict
+
+        #If you wants to create a new branch and switch into that branch at the same time=>
+        git checkout -b newBranchName > enter</p>
+</body>
+</html>
+</body>
+</html>
